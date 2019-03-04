@@ -2,6 +2,8 @@ package app.model.entities;
 
 import lombok.Data;
 
+import java.util.Objects;
+
 @Data
 public class Enrollment {
 
@@ -18,5 +20,19 @@ public class Enrollment {
         return studentId +
                 separator +
                 courseCode + "\n";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Enrollment that = (Enrollment) o;
+        return studentId.equals(that.studentId) &&
+                courseCode.equals(that.courseCode);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(studentId, courseCode);
     }
 }

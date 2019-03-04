@@ -1,3 +1,17 @@
 
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ú‹¥ö8€–Êù“-
+squid:S106."9Replace this use of System.out or System.err by a logger.(§Åş8ØÒòÂ”-
+\"squid:SwitchLastCaseIsDefaultCheck+""Add a default case to this switch.(©Øûºûÿÿÿÿ8ıùÁ”-
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Öµøó8ØòÂ”-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú‹¥ö8€–Êù“-
+V
+squid:S106-"9Replace this use of System.out or System.err by a logger.(–¶æ©8¸’üÁ”-
+nsquid:S1301+"KReplace this "switch" statement by "if" statements to increase readability.(©Øûºûÿÿÿÿ8ıùÁ”-
+V
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ùèÜ8›óŒÂ”-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËÛÄÊ8äæÃ”-
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(öÖ…’úÿÿÿÿ8ìæ€Â”-

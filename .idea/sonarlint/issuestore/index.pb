@@ -29,8 +29,6 @@ W
 'src/main/java/app/view/StudentView.java,5\6\5699d26ffe0b97082ee669a2af655a083d8887c6
 W
 'src/main/java/app/view/CoursesView.java,b\4\b455c9c2d503c5cc7e2ca7991eb227d6c07861ea
-]
--src/main/java/app/model/EnrollmentFacade.java,0\2\02cb2a1e82fe6253777ab4d7dcac2c72f96741d9
 g
 7src/main/java/app/model/data/mappers/StudentMapper.java,f\d\fdc1b87a8e8c6288b5834d4e1700e5207bd2f54b
 T

@@ -18,7 +18,7 @@ public abstract class Repository<T> {
 
     protected Path resource;
 
-    protected Mapper mapper;
+    protected Mapper<T> mapper;
 
     protected Repository(String filename) {
         try {
@@ -38,7 +38,8 @@ public abstract class Repository<T> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
-                    .map(record -> (T)mapper.map(record))
+                    .filter(record -> !"".equals(record.trim()))
+                    .map(record -> mapper.map(record))
                     .collect(Collectors.toList());
 
         } catch (IOException e) {
@@ -47,7 +48,7 @@ public abstract class Repository<T> {
         return Collections.emptyList();
     }
 
-    public void add(T entity){
+    public void add(T entity) throws OperationNotPermitedException {
         try {
             Files.write(resource, mapper.unmap(entity).getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
@@ -59,6 +60,7 @@ public abstract class Repository<T> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             List<String> deleted = stream
+                    .filter(record -> !"".equals(record.trim()))
                     .filter(record -> !mapper.map(record).equals(entity))
                     .collect(Collectors.toList());
 
@@ -73,6 +75,7 @@ public abstract class Repository<T> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             List<String> deleted = stream
+                    .filter(record -> !"".equals(record.trim()))
                     .map(record -> mapper.map(record).equals(entity) ? mapper.unmap(entity) : record)
                     .collect(Collectors.toList());
 

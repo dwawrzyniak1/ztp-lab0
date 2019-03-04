@@ -1,5 +1,6 @@
 package app.model;
 
+import app.model.data.EnrollmentRepository;
 import app.model.data.StudentRepository;
 import app.model.data.mappers.StudentMapper;
 import app.model.entities.Student;
@@ -7,6 +8,7 @@ import app.model.entities.Student;
 public class StudentFacade implements CRUDFacade {
 
     private StudentRepository repository = new StudentRepository();
+    private EnrollmentRepository enrollmentRepository = new EnrollmentRepository();
 
     private StudentMapper mapper = new StudentMapper();
 
@@ -25,6 +27,7 @@ public class StudentFacade implements CRUDFacade {
         Student student = new Student();
         student.setId(id);
         repository.delete(student);
+        enrollmentRepository.deleteByStudentId(id);
     }
 
 }

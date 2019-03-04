@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8a62a0f-7bdc-4e1a-8a0e-183478bdd204" name="Default Changelist" comment="" />
+    <list default="true" id="c8a62a0f-7bdc-4e1a-8a0e-183478bdd204" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02cb2a1e82fe6253777ab4d7dcac2c72f96741d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7089e98feddaf2eced888c692d7d2dd059d7df66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7089e98feddaf2eced888c692d7d2dd059d7df66" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78789bf77df9037abaad1f39b7040d3c84c1a7b8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78789bf77df9037abaad1f39b7040d3c84c1a7b8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87c5c9e1dde9b29b6b46cbcbf37fc31b10296403" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87c5c9e1dde9b29b6b46cbcbf37fc31b10296403" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9628f55d0fb79509069997c1f117c2f58bbb2b0c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9628f55d0fb79509069997c1f117c2f58bbb2b0c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97bc0e75c38251dd1bb9728db94cad8a634beb05" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97bc0e75c38251dd1bb9728db94cad8a634beb05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c971977edde67a1f5e1ab8abd8afcbbd789071d0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c971977edde67a1f5e1ab8abd8afcbbd789071d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd81d3cd9e8df31c48373e8aa0980bf51b37c97a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd81d3cd9e8df31c48373e8aa0980bf51b37c97a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/CourseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/CourseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/EnrollmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/EnrollmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/CourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/EnrollmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/EnrollmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/data/mappers/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/model/entities/Enrollment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/model/entities/Enrollment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/EnrollmentRepository" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/EnrollmentRepository" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/StudentRepository" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/StudentRepository" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/EnrollmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/EnrollmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,10 +81,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/entities/Course.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="715">
+              <caret line="72" column="93" lean-forward="true" selection-start-line="72" selection-start-column="93" selection-end-line="72" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,16 +102,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Service.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getStudentById#0;class#EnrollmentFacade#0" />
-                <element signature="method#enrollStudent#0;class#EnrollmentFacade#0" />
-                <element signature="e#2200#2201#0" expanded="true" />
-                <element signature="e#2248#2249#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="70" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,12 +178,12 @@
       <find>writeString</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/data/IRepository.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/CompositeView.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/EnrollmentList.java" />
@@ -104,43 +201,46 @@
         <option value="$PROJECT_DIR$/src/main/java/app/data/EnrollmentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/data/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/data/mappers/EnrollmentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/EnrollmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/resources/StudentRepository" />
         <option value="$PROJECT_DIR$/src/main/resources/EnrollmentRepository" />
         <option value="$PROJECT_DIR$/src/main/resources/CourseRepository" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/view/MenuView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/CreateController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/ReadController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/CRUDFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/entities/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/entities/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/view/CoursesView.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/view/StudentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/model/EnrollmentFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/data/Repository.java" />
         <option value="$PROJECT_DIR$/out/production/resources/StudentRepository" />
-        <option value="$PROJECT_DIR$/out/production/resources/EnrollmentRepository" />
         <option value="$PROJECT_DIR$/out/production/resources/CourseRepository" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/mappers/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/mappers/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/mappers/EnrollmentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java" />
+        <option value="$PROJECT_DIR$/out/production/resources/EnrollmentRepository" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2030" />
-    <option name="y" value="-13" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -208,6 +308,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaawansowane-techniki-programowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaawansowane-techniki-programowania" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,19 +328,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaawansowane-techniki-programowania" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaawansowane-techniki-programowania" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaawansowane-techniki-programowania" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaawansowane-techniki-programowania" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,6 +440,8 @@
       <workItem from="1551389031133" duration="3245000" />
       <workItem from="1551538034665" duration="12427000" />
       <workItem from="1551637054659" duration="660000" />
+      <workItem from="1551694340441" duration="5160000" />
+      <workItem from="1551712274877" duration="1376000" />
     </task>
     <servers />
   </component>
@@ -380,12 +478,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39611000" />
+    <option name="totallyTimeSpent" value="46147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -394,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6705757" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6695096" weight="0.3847803" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,11 +501,11 @@
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32942432" side_tool="true" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3304904" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49573562" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49520257" weight="0.3290461" />
       <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -456,6 +555,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/app/controller/AdminController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java" />
@@ -509,28 +620,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/data/EnrollmentRepositoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/view/MainMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -542,16 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,16 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -604,58 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CRUDFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setCrudFacade#0;class#AdminController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,27 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getStudentById#0;class#EnrollmentFacade#0" />
-            <element signature="method#enrollStudent#0;class#EnrollmentFacade#0" />
-            <element signature="e#2200#2201#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/resources/StudentRepository">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/resources/CourseRepository">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -718,24 +719,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/EnrollmentMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/entities/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/entities/Enrollment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CRUDFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="method#trimAll#0;class#Mapper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/mappers/EnrollmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/resources/StudentRepository">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/model/StudentFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="493">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -744,18 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="732">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -764,18 +877,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/resources/EnrollmentRepository">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/entities/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/CourseFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="476">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/data/EnrollmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="72" column="93" lean-forward="true" selection-start-line="72" selection-start-column="93" selection-end-line="72" selection-end-column="93" />
         </state>
       </provider>
     </entry>

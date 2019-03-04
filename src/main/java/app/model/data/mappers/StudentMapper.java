@@ -16,6 +16,8 @@ public class StudentMapper implements Mapper<Student> {
     @Override
     public Student map(String source) {
         String[] mapping = source.split(separator);
+        mapping = trimAll(mapping);
+
         return new Student(
                 Long.valueOf(mapping[idPosition]),
                 mapping[firstnamePosition],

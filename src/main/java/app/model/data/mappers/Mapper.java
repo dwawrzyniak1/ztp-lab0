@@ -8,4 +8,11 @@ public interface Mapper <T> {
 
     String unmap(T entity);
 
+    default String[] trimAll(String[] source){
+        for(String element : source){
+            element.trim();
+        }
+        return source;
+    }
+
 }

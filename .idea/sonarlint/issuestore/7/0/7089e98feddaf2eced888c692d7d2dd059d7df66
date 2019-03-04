@@ -1,3 +1,4 @@
 
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êèøÿÿÿÿ8¨ˆ¨“-
 Esquid:S1214""Move constants to a class or enum.(õÃñ¿ùÿÿÿÿ8¨ˆ¨“-
+Ksquid:S2201"(The return value of "trim" must be used.(¯¸ó»úÿÿÿÿ8ƒÓ»Ã”-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êèøÿÿÿÿ8¨ˆ¨“-

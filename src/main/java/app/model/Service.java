@@ -2,6 +2,7 @@ package app.model;
 
 import app.model.data.CourseRepository;
 import app.model.data.EnrollmentRepository;
+import app.model.data.OperationNotPermitedException;
 import app.model.data.StudentRepository;
 import app.model.entities.Course;
 import app.model.entities.Enrollment;
@@ -53,7 +54,7 @@ public class Service {
         return Optional.of(student);
     }
 
-    public void enrollStudent(String parameters) {
+    public void enrollStudentToCourse(String parameters) throws OperationNotPermitedException {
         String[] inputs = parameters.split(",");
         Enrollment enrollment = new Enrollment(Long.valueOf(inputs[0]), inputs[1]);
         enrollmentRepository.add(enrollment);
@@ -65,5 +66,11 @@ public class Service {
 
     public List<Course> getAllCourses() {
         return courseRepository.getAll();
+    }
+
+    public void discardStudentFromCourse(String parameters) {
+        String[] inputs = parameters.split(",");
+        Enrollment enrollment = new Enrollment(Long.valueOf(inputs[0]), inputs[1]);
+        enrollmentRepository.delete(enrollment);
     }
 }

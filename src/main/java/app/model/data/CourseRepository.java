@@ -21,7 +21,8 @@ public class CourseRepository extends Repository<Course> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
-                    .map(record -> (Course)mapper.map(record))
+                    .filter(record -> !"".equals(record.trim()))
+                    .map(record -> mapper.map(record))
                     .filter(course -> shortname.equals(course.getShortname()))
                     .findFirst();
 
@@ -35,7 +36,8 @@ public class CourseRepository extends Repository<Course> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
-                    .map(record -> (Course)mapper.map(record))
+                    .filter(record -> !"".equals(record.trim()))
+                    .map(record -> mapper.map(record))
                     .filter(course -> courseCode.equals(course.getCode()))
                     .findFirst();
 

@@ -12,6 +12,8 @@ public class EnrollmentMapper implements Mapper<Enrollment> {
     @Override
     public Enrollment map(String source) {
         String[] elements = source.split(separator);
+        elements = trimAll(elements);
+
         return new Enrollment(
                 Long.valueOf(elements[studentIdPosition]),
                 elements[courseCodePosition]);

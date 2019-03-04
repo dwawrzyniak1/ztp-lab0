@@ -21,7 +21,8 @@ public class StudentRepository extends Repository<Student> {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
-                    .map(record -> (Student)mapper.map(record))
+                    .filter(record -> !"".equals(record.trim()))
+                    .map(record -> mapper.map(record))
                     .filter(student -> studentId.equals(student.getId()))
                     .findFirst();
 

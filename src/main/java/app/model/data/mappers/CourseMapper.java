@@ -11,6 +11,7 @@ public class CourseMapper implements Mapper<Course> {
     @Override
     public Course map(String source) {
         String[] mapping = source.split(separator);
+        mapping = trimAll(mapping);
 
         Course course = new Course();
         course.setFullname(mapping[fullnamePosition]);
