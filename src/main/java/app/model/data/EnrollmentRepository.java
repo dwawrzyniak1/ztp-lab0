@@ -18,29 +18,33 @@ public class EnrollmentRepository extends Repository<Enrollment> {
 
     private static String filename = "EnrollmentRepository";
 
-    private StudentRepository studentRepository = new StudentRepository();
-    private CourseRepository courseRepository = new CourseRepository();
-
     public EnrollmentRepository() {
         super(filename);
         mapper = new EnrollmentMapper();
     }
 
-    public void add(Enrollment entity) throws OperationNotPermitedException {
+    @Override
+    public void add(Enrollment entity) {
         try {
-            validateEnrollment(entity);
             Files.write(resource, mapper.unmap(entity).getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
-    private void validateEnrollment(Enrollment entity) throws OperationNotPermitedException {
-        Course course = courseRepository.getCourseByCode(entity.getCourseCode()).orElse(null);
-        Student student = studentRepository.getStudentById(entity.getStudentId()).orElse(null);
-        if(course == null || student == null){
-            throw new OperationNotPermitedException("Student lub kurs nie istnieje");
+    public boolean isPresent(Enrollment entity){
+        Optional<Enrollment> fromFile = Optional.empty();
+        try (Stream<String> stream = Files.lines(resource)) {
+
+            fromFile = stream
+                    .map(record -> mapper.map(record))
+                    .filter(enrollment -> enrollment.equals(entity))
+                    .findFirst();
+
+        } catch (IOException e) {
+            handleError(e);
         }
+        return fromFile.isPresent();
     }
 
     public List<Enrollment> getByStudentId(Long studentId) {
@@ -54,7 +58,7 @@ public class EnrollmentRepository extends Repository<Enrollment> {
                     .collect(Collectors.toList());
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return result;
     }
@@ -69,7 +73,7 @@ public class EnrollmentRepository extends Repository<Enrollment> {
                     .collect(Collectors.toList());
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return result;
     }
@@ -85,7 +89,7 @@ public class EnrollmentRepository extends Repository<Enrollment> {
             Files.write(resource, deleted);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
@@ -100,7 +104,7 @@ public class EnrollmentRepository extends Repository<Enrollment> {
             Files.write(resource, deleted);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 }

@@ -24,7 +24,7 @@ public abstract class Repository<T> {
         try {
             resource = initialize(filename);
         } catch (URISyntaxException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
@@ -43,16 +43,16 @@ public abstract class Repository<T> {
                     .collect(Collectors.toList());
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return Collections.emptyList();
     }
 
-    public void add(T entity) throws OperationNotPermitedException {
+    public void add(T entity){
         try {
             Files.write(resource, mapper.unmap(entity).getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
@@ -67,7 +67,7 @@ public abstract class Repository<T> {
             Files.write(resource, deleted);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
@@ -82,10 +82,16 @@ public abstract class Repository<T> {
             Files.write(resource, deleted);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
     }
 
-
+    protected void handleError(Exception e) {
+        if(e instanceof IOException){
+            System.err.println("Błąd dostępu do pliku.");
+        }else if(e instanceof URISyntaxException){
+            System.err.println("Blad parsowania sciezki nie powiodlo się");
+        }
+    }
 
 }

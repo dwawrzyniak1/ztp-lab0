@@ -1,45 +1,32 @@
 package app.controller;
 
-import app.view.CoursesView;
-import app.view.MenuView;
-import app.view.StudentView;
-import app.view.View;
+import app.model.data.CourseRepository;
+import app.model.data.EnrollmentRepository;
+import app.model.data.StudentRepository;
+import app.model.entities.Course;
+import app.model.entities.Student;
 
-import java.util.HashMap;
+import java.util.List;
 
-public class MainController implements Controller {
+public class MainController{
 
-    private static final String formatting = "%-45s%-70s%-70s%n";
-    public static final String INSTRUCTION = String.format(formatting, "FUNKCJA", "KOMENDA", "PRZYKLAD") +
-            String.format(formatting, "Wyświetlanie danych wszystkich studentów", "<student>", "student") +
-            String.format(formatting, "Wyświetlanie danych studenta", "<student {id studenta}>", "student 1") +
-            String.format(formatting, "Wyświetlanie danych wszystkich kursów", "<kurs>", "<kurs>") +
-            String.format(formatting, "Wyświetlanie danych kursu", "<kurs {skrocona nazwa}>", "kurs PP");
+    private CourseRepository courseRepository = new CourseRepository();
+    private EnrollmentRepository enrollmentRepository = new EnrollmentRepository();
+    private StudentRepository studentRepository = new StudentRepository();
 
-
-    private static HashMap<String, View> commandViewMapping = new HashMap<>();
-
-    static{
-        commandViewMapping.put("kurs", new CoursesView());
-        commandViewMapping.put("student", new StudentView());
-        commandViewMapping.put("menu", new MenuView());
+    public List<Student> getAllStudents() {
+        return studentRepository.getAll();
     }
 
-    public String interact(String input){
-        String[] commands = input.split(separator);
-
-        if(commandIsValid(commands[0])){
-            return commandViewMapping.get(commands[0]).render(allOrSpecificData(commands));
-        }
-
-        return "Nieznane polecenie. Sprawdź czy wykonałeś polecenie zgodne z poniższą instrukcją: \n" + INSTRUCTION;
+    public Student getStudentById(String parameter) {
+        return studentRepository.getStudentById(Long.valueOf(parameter));
     }
 
-    private String allOrSpecificData(String[] commands) {
-        return commands.length > 1 ? commands[1] : "";
+    public List<Course> getAllCourses() {
+        return courseRepository.getAll();
     }
 
-    private boolean commandIsValid(String command) {
-        return commandViewMapping.get(command) != null;
+    public Course getCourseByShortname(String shortname) {
+        return courseRepository.getCourseByShortName(shortname);
     }
 }

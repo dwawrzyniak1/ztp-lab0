@@ -45,5 +45,7 @@ Z
 0src/main/java/app/controller/MainController.java,c\9\c971977edde67a1f5e1ab8abd8afcbbd789071d0
 a
 1src/main/java/app/controller/AdminController.java,7\8\78789bf77df9037abaad1f39b7040d3c84c1a7b8
-T
-$src/main/java/app/model/Service.java,f\d\fdc3c140cfcf1c162298e92fb611109b36911b36
+o
+?src/main/java/app/model/data/OperationNotPermitedException.java,b\5\b501c54534c394f0091ff9dfa514dd89f9127fba
+]
+-src/main/java/app/model/EnrollmentFacade.java,0\2\02cb2a1e82fe6253777ab4d7dcac2c72f96741d9

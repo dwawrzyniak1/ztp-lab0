@@ -17,7 +17,7 @@ public class StudentRepository extends Repository<Student> {
         mapper = new StudentMapper();
     }
 
-    public Optional<Student> getStudentById(Long studentId) {
+    public Student getStudentById(Long studentId) {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
@@ -27,7 +27,7 @@ public class StudentRepository extends Repository<Student> {
                     .findFirst();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return Optional.empty();
     }

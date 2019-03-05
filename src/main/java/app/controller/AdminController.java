@@ -1,80 +1,75 @@
 package app.controller;
 
-import app.model.CRUDFacade;
-import app.model.CourseFacade;
-import app.model.Service;
-import app.model.StudentFacade;
+import app.model.data.CourseRepository;
+import app.model.data.EnrollmentRepository;
 import app.model.data.OperationNotPermitedException;
+import app.model.data.StudentRepository;
+import app.model.data.mappers.CourseMapper;
+import app.model.data.mappers.EnrollmentMapper;
+import app.model.data.mappers.StudentMapper;
+import app.model.entities.Course;
+import app.model.entities.Enrollment;
+import app.model.entities.Student;
 
-import java.util.Arrays;
+public class AdminController {
 
-public class AdminController implements Controller {
+    private CourseRepository courseRepository = new CourseRepository();
+    private EnrollmentRepository enrollmentRepository = new EnrollmentRepository();
+    private StudentRepository studentRepository = new StudentRepository();
 
-    private static final String formatting = "%-45s%-70s%-70s%n";
+    private StudentMapper studentMapper = new StudentMapper();
+    private CourseMapper courseMapper = new CourseMapper();
+    private EnrollmentMapper enrollmentMapper = new EnrollmentMapper();
 
-    public static final String INSTRUCTION = String.format(formatting, "FUNKCJA", "KOMENDA", "PRZYKLAD") +
-            String.format(formatting, "Dodawanie danych studenta", "<dodaj studenta {id},{imie},{nazwisko},{data urodzin}>", "dodaj studenta 1,Damian,Wawrzyniak,1997-10-10") +
-            String.format(formatting, "Usuwanie danych studenta", "<usun studenta {id}>", "usun studenta 1") +
-            String.format(formatting, "Aktualizowanie danych studenta", "<aktualizuj studenta {id},{imie},{nazwisko},{data urodzin}>", "aktualizuj studenta 1,Adam,Wawrzyniak,1997-10-12") +
-            String.format(formatting, "Dodawanie danych kursu", "<dodaj kurs {pelna nazwa},{skrocona nazwa},{kod grupy}>", "dodaj kurs Zaawansowane Techniki Programowania,ZTP,ZTP-1") +
-            String.format(formatting, "Usuwanie danych kursu", "<usun kurs {kod grupy}>", "usun kurs ZTP-1") +
-            String.format(formatting, "Aktualizowanie danych kursu", "<aktualizuj kurs {pelna nazwa},{skrocona nazwa},{kod grupy}>", "aktualizuj kurs Zaawansowane Techniki Programowania Obiektowego,ZTP,ZTP-1") +
-            String.format(formatting, "Zapisywanie studenta na kurs", "<zapisz {id studenta},{kod grupy}>", "zapisz 1,ZTP-1") +
-            String.format(formatting, "Wypisywanie studenta z kursu", "<wypisz {id studenta},{kod grupy}>", "wypisz 1,ZTP-1");
-
-
-    private static int commandEndIndex = 2;
-
-    private StudentFacade studentFacade = new StudentFacade();
-    private CourseFacade courseFacade = new CourseFacade();
-
-    private CRUDFacade facade;
-
-    private Service service = new Service();
-
-    public String interact(String input) {
-        String[] commands = input.split(separator);
-
-        setCrudFacade(commands[1]);
-
-        try {
-            switch (commands[0]) {
-                case "dodaj":
-                    facade.create(String.join(" ", Arrays.copyOfRange(commands, commandEndIndex, commands.length)));
-                    return "Dodano";
-                case "aktualizuj":
-                    facade.update(String.join(" ", Arrays.copyOfRange(commands, commandEndIndex, commands.length)));
-                    return "Zaktualizowano dane";
-                case "usun":
-                    facade.delete(String.join(" ", Arrays.copyOfRange(commands, commandEndIndex, commands.length)));
-                    return "Usunieto dane";
-                case "zapisz":
-                    service.enrollStudentToCourse(String.join(" ", Arrays.copyOfRange(commands, 1, commands.length)));
-                    return "Zapisano studenta na kurs";
-                case "wypisz":
-                    service.discardStudentFromCourse(String.join(" ", Arrays.copyOfRange(commands, 1, commands.length)));
-                    return "Wypisano studenta z kursu";
-                default:
-                    return "Nieznane polecenie - " + commands[0];
-            }
-        } catch (OperationNotPermitedException e) {
-            return "Niedozwolona operacja: " + e.getMessage();
-        } catch (Exception e) {
-            return "Operacja nie powiodła się. Sprawdź czy wykonałeś polecenie zgodne z poniższą instrukcją: \n" + INSTRUCTION;
-        }
-
+    public void createStudent(String stringRepresentation){
+        Student student = studentMapper.map(stringRepresentation);
+        studentRepository.add(student);
     }
 
-    private void setCrudFacade(String command) {
-        switch (command) {
-            case "studenta":
-                facade = studentFacade;
-                break;
-            case "kurs":
-                facade = courseFacade;
-                break;
-            default:
-                break;
+    public void deleteStudent(String stringRepresentation){
+        Student student = studentMapper.map(stringRepresentation);
+        studentRepository.delete(student);
+    }
+
+    public void updateStudent(String stringRepresentation){
+        Student student = studentMapper.map(stringRepresentation);
+        studentRepository.update(student);
+    }
+
+    public void createCourse(String stringRepresentation){
+        Course course = courseMapper.map(stringRepresentation);
+        courseRepository.add(course);
+    }
+
+    public void deleteCourse(String stringRepresentation){
+        Course course = courseMapper.map(stringRepresentation);
+        courseRepository.delete(course);
+    }
+
+    public void updateCourse(String stringRepresentation){
+        Course course = courseMapper.map(stringRepresentation);
+        courseRepository.update(course);
+    }
+
+    public void enrollStudentToCourse(String parameters) throws OperationNotPermitedException {
+        Enrollment enrollment = enrollmentMapper.map(parameters);
+        validateEnrollment(enrollment);
+        enrollmentRepository.add(enrollment);
+    }
+
+    private void validateEnrollment(Enrollment enrollment) throws OperationNotPermitedException {
+        Course course = courseRepository.getCourseByCode(enrollment.getCourseCode());
+        Student student = studentRepository.getStudentById(enrollment.getStudentId());
+        if(course == null || student == null){
+            throw new OperationNotPermitedException("Student lub kurs nie istnieje");
         }
+        if(enrollmentRepository.isPresent(enrollment)){
+            throw new OperationNotPermitedException("Student jest już zapisany na ten kurs");
+        }
+    }
+
+    public void discardStudentFromCourse(String parameters) {
+        Enrollment enrollment = enrollmentMapper.map(parameters);
+        enrollmentRepository.delete(enrollment);
     }
 }

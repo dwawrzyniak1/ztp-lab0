@@ -17,7 +17,7 @@ public class CourseRepository extends Repository<Course> {
         mapper = new CourseMapper();
     }
 
-    public Optional<Course> getCourseByShortName(String shortname) {
+    public Course getCourseByShortName(String shortname) {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
@@ -27,12 +27,12 @@ public class CourseRepository extends Repository<Course> {
                     .findFirst();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return Optional.empty();
     }
 
-    public Optional<Course> getCourseByCode(String courseCode) {
+    public Course getCourseByCode(String courseCode) {
         try (Stream<String> stream = Files.lines(resource)) {
 
             return stream
@@ -42,7 +42,7 @@ public class CourseRepository extends Repository<Course> {
                     .findFirst();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            handleError(e);
         }
         return Optional.empty();
     }

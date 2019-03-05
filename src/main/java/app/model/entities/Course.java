@@ -2,7 +2,6 @@ package app.model.entities;
 
 import lombok.Data;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -32,4 +31,9 @@ public class Course {
                 code + "\n";
     }
 
+    public String toString(String courseFormatting) {
+        return String.format(
+                courseFormatting, getFullname(), getShortname(), getCode()
+        );
+    }
 }

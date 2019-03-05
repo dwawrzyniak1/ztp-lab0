@@ -52,13 +52,9 @@ public class Student {
         return Objects.hash(id);
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                '}';
+    public String toString(String formatting) {
+        return String.format(
+                formatting, getId(), getFirstname(), getLastname(), getDateOfBirth().toString()
+        );
     }
 }
